@@ -9,7 +9,7 @@
   ],
   "dependencies": {
     "@turf/turf": "^6.5.0",
-    "mars3d-cesium": "^1.90.1"
+    "zy-cesium": "^1.90.1"
   },
   "devDependencies": {},
   "scripts": {

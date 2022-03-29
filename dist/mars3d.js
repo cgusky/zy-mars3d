@@ -12,8 +12,8 @@
  */
 let Cesium = window.Cesium //通过index.html的head引入
 if (!Cesium && typeof exports === 'object') {
-  Cesium = require('mars3d-cesium') //使用npm安装内置的Cesium
-  require('mars3d-cesium/Build/Cesium/Widgets/widgets.css')
+  Cesium = require('zy-cesium') //使用npm安装内置的Cesium
+  require('zy-cesium/Build/Cesium/Widgets/widgets.css')
   window['Cesium'] = Cesium
 }
 if (!Cesium) {
